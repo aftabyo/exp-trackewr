@@ -8,7 +8,7 @@ const app = express();
 // Configure CORS
 app.use(
   cors({
-    origin: "https://exp-trackewr-lmd2vdr9k-aftabyos-projects.vercel.app/", // Replace with your frontend URL
+    origin: "https://exp-trackewr-1yb6yv6ld-aftabyos-projects.vercel.app/", // Replace with your frontend URL
     methods: "GET,POST,PUT,PATCH,DELETE", // Specify allowed methods
     allowedHeaders: "Content-Type,Authorization", // Specify allowed headers
     credentials: true, // Allow cookies to be sent/received
