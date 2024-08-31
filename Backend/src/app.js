@@ -8,7 +8,7 @@ const app = express();
 // Configure CORS
 app.use(
   cors({
-    origin: "https://exp-trackewr-1yb6yv6ld-aftabyos-projects.vercel.app/", // Replace with your frontend URL
+    origin: "http://localhost:5173", // Replace with your frontend URL
     methods: "GET,POST,PUT,PATCH,DELETE", // Specify allowed methods
     allowedHeaders: "Content-Type,Authorization", // Specify allowed headers
     credentials: true, // Allow cookies to be sent/received
